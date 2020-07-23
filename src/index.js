@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import AppContainer from './Containers/appContainer';
 import * as serviceWorker from './serviceWorker';
-
+import {BrowserRouter as Router} from  'react-router-dom';
+import {PersistGate} from 'redux-persist/integration/react';
+import {store,persistor} from './Redux/store';
+import { Provider} from 'react-redux';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <Router>
+    <PersistGate persistor={persistor}>
+    <AppContainer />
+    </PersistGate>
+    </Router>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,21 @@
+.promotion{
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+    height: 32px;
+    width: 132px;
+    display: flex;
+    position: absolute;
+    top: -13px;
+    right: 0;
+    align-items: center;
+    justify-items: center;
+    background-color: #68a7ff;
+    font-size: 13px;
+    font-family: 'DINPro Medium';
+    line-height: 18px;
+    color: white;
+    z-index: 5;
+}
+.text{
+  margin-left: 25%;
+
+}
