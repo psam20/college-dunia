@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .college{
@@ -20,7 +21,7 @@
     opacity: 0.7;
     background-size: cover;
     position: relative;
-    background-color: #444444;
+    background-image: linear-gradient(to right bottom, rgba(103, 233, 103, 0.808) , rgba(145, 226, 90, 0.835))
 }
   .promo{
       
@@ -62,6 +63,18 @@
     font-size:'13.5px';
     font-family:'DINPro Medium';
 
+  }
+  .discount{
+      display: inline-block;
+      height: 14px;
+      width: 29px;
+      clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+      background-color: #dd1c26;
+      color: #ffffff;
+      font-size: 13.5px;
+      line-height: 18px;
+      text-align: center;
+      margin-left: 5px;
   }
   @media only screen and (max-width: 600px) {
     .container{

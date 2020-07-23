@@ -1,0 +1,11 @@
+.star-rating-filled {
+    fill: #444444;;
+  }
+  
+  .star-rating-blank {
+    fill: #b3acac;
+  }
+  .flex-container {
+    display: flex;
+    margin-left: 9px;
+  }

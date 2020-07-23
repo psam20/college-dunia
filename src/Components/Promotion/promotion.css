@@ -1,5 +1,6 @@
 .promotion{
-    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(100% 0, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+    /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%); */
     height: 32px;
     width: 132px;
     display: flex;

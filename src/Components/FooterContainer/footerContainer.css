@@ -1,0 +1,29 @@
+.footerContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+    width: 65%;
+    height: 35px;
+    background-color:#ccf5e7;
+    border-radius: 0px 25px 25px 0px;
+    line-height: 18px;
+    font-size: 13.5px;
+    font-family: 'DINPro Medium';
+}
+.amen {
+    font-size: 13px;
+   
+    color: #37b396;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    
+}
